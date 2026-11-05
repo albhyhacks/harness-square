@@ -1,0 +1,9 @@
+# Local patch: Grok Build CLI on the codex_root harness surface.
+harness:
+  name: grok-harness
+  import_path: "workbuddy_bench.agents.grok_harness_agent:GrokHarnessAgent"
+  protocol: openai
+  params:
+    CODEX_MAX_TURNS: null
+    CODEX_BIN_DIR: "/opt/codex"
+    GROK_BIN: "/opt/grok/grok"

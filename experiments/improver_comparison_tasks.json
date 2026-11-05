@@ -1,0 +1,1 @@
+{"benchmark": "wb-code", "seed": 0, "train_fraction": 0.03, "train": ["reliability-hard-stream_release", "testing-medium-format_errors"], "test": ["feature-hard-fallback_signers_and_switch"]}

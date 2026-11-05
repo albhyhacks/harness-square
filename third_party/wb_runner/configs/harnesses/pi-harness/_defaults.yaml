@@ -1,0 +1,8 @@
+# Local patch: pi coding agent on the codex_root harness surface.
+harness:
+  name: pi-harness
+  import_path: "workbuddy_bench.agents.pi_harness_agent:PiHarnessAgent"
+  protocol: openai
+  params:
+    CODEX_MAX_TURNS: null
+    CODEX_BIN_DIR: "/opt/codex"
